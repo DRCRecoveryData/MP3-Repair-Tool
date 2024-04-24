@@ -41,4 +41,3 @@ The script reads the provided MP3 file, removes the trailing encrypted data, and
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Make sure to replace "your_username" with your GitHub username and adjust any other information as necessary.
