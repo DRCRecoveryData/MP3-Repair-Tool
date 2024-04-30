@@ -1,5 +1,8 @@
 # MP3 Repair Tool
 
+![Screenshot from 2024-04-30 15-30-47](https://github.com/DRCRecoveryData/MP3-Repair-Tool/assets/85211068/3429ef2d-fb07-4f29-bbbc-fbea606ab3c6)
+
+
 This Python application provides a graphical interface for repairing encrypted MP3 files by removing a specific number of bytes from each file.
 
 ## Features
