@@ -1,4 +1,4 @@
-# MP3 File Repair Tool
+# MP3 Repair Tool
 
 This is a Python script for repairing encrypted MP3 files by removing additional data appended to the end of the file.
 
@@ -11,7 +11,7 @@ This is a Python script for repairing encrypted MP3 files by removing additional
 1. Clone the repository:
 
     ```
-    git clone https://github.com/DRCRecoveryData/mp3-file-repair.git
+    git clone https://github.com/DRCRecoveryData/MP3-Repair-Tool.git
     ```
 
 2. Navigate to the project directory in File Explorer.
