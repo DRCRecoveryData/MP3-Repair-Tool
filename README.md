@@ -1,43 +1,40 @@
 # MP3 Repair Tool
 
-This is a Python script for repairing encrypted MP3 files by removing additional data appended to the end of the file.
+This Python application provides a graphical interface for repairing encrypted MP3 files by removing a specific number of bytes from each file.
+
+## Features
+- Allows users to select a folder containing encrypted MP3 files for repair.
+- Repairs encrypted MP3 files by removing a specified number of bytes from each file.
+- Displays progress of the repair process through a progress bar.
+- Logs repair progress and status messages in a text box.
+- Notifies users upon completion of the repair process.
 
 ## Requirements
-
 - Python 3.x
-
-## Installation
-
-1. Clone the repository:
-
-    ```
-    git clone https://github.com/DRCRecoveryData/MP3-Repair-Tool.git
-    ```
-
-2. Navigate to the project directory in File Explorer.
+- PyQt6
 
 ## Usage
+1. Run the script.
+2. Browse and select the folder containing the encrypted MP3 files you want to repair.
+3. Click the "Repair" button to start the repair process.
+4. Progress of the repair process will be displayed in the progress bar.
+5. Once the repair process is complete, a message box will inform you of the success and provide the path to the repaired files.
 
-1. Double-click on `mp3_repair.py` to run the script.
-
-2. Enter the path to the encrypted MP3 file when prompted.
-
-3. The repaired file will be saved in the "Repaired" folder within the project directory.
-
-## Example
-
-Enter the path to the encrypted MP3 file: path\to\encrypted.mp3
-Repaired file saved to: Repaired\encrypted_repaired.mp3
+## Instructions
+1. Install Python 3.x on your system if not already installed.
+2. Install PyQt6 library using pip:
+    ```
+    pip install PyQt6
+    ```
+3. Run the script using Python:
+    ```
+    python mp3repair-gui.py
+    ```
 
 ## How it Works
+- The application scans the selected folder for encrypted MP3 files with the proper extension.
+- It reads each file, removes a specific number of bytes from the end, and saves the repaired file in a new folder.
+- Progress of the repair process is updated in real-time, and a log of the process is displayed.
 
-The script reads the provided MP3 file, removes the trailing encrypted data, and writes the repaired content to a new file.
-
-## Contributors
-
-- [DRCRecoveryData](https://github.com/DRCRecoveryData)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+## Note
+- Make sure to create a backup of your encrypted MP3 files before using this tool, as it modifies the original files.
